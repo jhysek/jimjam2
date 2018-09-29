@@ -1,0 +1,32 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/City Background.png-fe4d2649e3ed64d71464a8023e2d3909.stex"
+
+[deps]
+
+source_file="res://Art/City Background/City Background.png"
+source_md5="ce5852c34fa93ed189db859dfc1e785a"
+
+dest_files=[ "res://.import/City Background.png-fe4d2649e3ed64d71464a8023e2d3909.stex" ]
+dest_md5="b327aa940f9081a6421c2139801c598e"
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=false
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0

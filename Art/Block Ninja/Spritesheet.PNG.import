@@ -1,0 +1,32 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/Spritesheet.PNG-953023ea29f135b38f34f854db835870.stex"
+
+[deps]
+
+source_file="res://Art/Block Ninja/Spritesheet.PNG"
+source_md5="1ec7c990fbd03a2cd1bf8b3fc94244b6"
+
+dest_files=[ "res://.import/Spritesheet.PNG-953023ea29f135b38f34f854db835870.stex" ]
+dest_md5="d8f86df7f79289708ac3eb212e012f67"
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0

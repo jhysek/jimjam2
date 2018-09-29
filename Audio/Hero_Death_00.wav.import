@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Hero_Death_00.wav-1a4172a92986b0f4cefccc9c36bdc571.sample"
+
+[deps]
+
+source_file="res://Audio/Hero_Death_00.wav"
+source_md5="2bf3c87b0b0bc4f12d2854a30d97402e"
+
+dest_files=[ "res://.import/Hero_Death_00.wav-1a4172a92986b0f4cefccc9c36bdc571.sample" ]
+dest_md5="9573167a980bd891f09453f882cd14d5"
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

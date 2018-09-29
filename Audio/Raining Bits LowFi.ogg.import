@@ -1,0 +1,18 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Raining Bits LowFi.ogg-3856d6ad34784ac879b6b4dba04ec49d.oggstr"
+
+[deps]
+
+source_file="res://Audio/Raining Bits LowFi.ogg"
+source_md5="7ad0111f62779e2050930e614f3a4163"
+
+dest_files=[ "res://.import/Raining Bits LowFi.ogg-3856d6ad34784ac879b6b4dba04ec49d.oggstr" ]
+dest_md5="1214a0b96f5cab546a3f7064b2b644c3"
+
+[params]
+
+loop=true
+loop_offset=0
