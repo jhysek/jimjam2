@@ -218,8 +218,13 @@ func _physics_process(delta):
 
 func _on_Timer_timeout():
 	$Blood.emitting = false
-	set_physics_process(false)
+	$DisableTimer.start()
+	#set_physics_process(false)
 	
 func explode():
 	die()
 			
+
+func _on_DisableTimer_timeout():
+	set_physics_process(false)
+	

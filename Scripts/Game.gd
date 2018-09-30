@@ -89,6 +89,8 @@ func next_iteration():
 		var camera = $Player/Camera2D
 		if dead_player:
 			dead_player.remove_child(camera)
+		else:
+			$CanvasLayer/Control/Error.show()
 		remove_child(dead_player)
 		$Corpses.add_child(dead_player)
 		
