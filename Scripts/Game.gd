@@ -4,6 +4,11 @@ var Player = preload("res://Components/Player.tscn")
 
 var clones = []
 var started = false
+var stats   = {
+	"deaths": 0,
+	"best_time": 99999,
+	"time": 0
+}
 
 func _ready():
 	set_process_input(true)
@@ -15,6 +20,8 @@ func _input(event):
 			started = true
 			$CanvasLayer/Control/StartLabel.hide()
 			$Player.start()
+			if clones.size() > 0:
+			  $SpawnTimer.start()
 			
 func die(record):
 	clones.append(record)
@@ -37,9 +44,22 @@ func next_iteration():
 		player.position = $SpawnPosition.position
 		player.add_child(camera)
 		$CanvasLayer/Control/StartLabel.show()
-	
 
-
+func spawn_clone(records):
+	var clone = Player.instance()
+	$Clones.add_child(clone)
+	clone.position = $SpawnPosition.position
+	clone.imitate(records)
 
 func _on_Timer_timeout():
 	next_iteration()
+
+func _on_SpawnTimer_timeout():
+	if clones.size() > 0:
+		var clone = clones.pop_front()
+		spawn_clone(clone)
+		
+		if clones.size() > 0:
+			$SpawnTimer.wait_time = 2
+			$SpawnTimer.start()
+		
