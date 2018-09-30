@@ -1,8 +1,6 @@
 extends Node2D
 
-# class member variables go here, for example:
-# var a = 2
-# var b = "textvar"
+var paused = false
 
 func _ready():
 	set_process_input(true)

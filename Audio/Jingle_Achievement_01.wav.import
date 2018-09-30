@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Jingle_Achievement_01.wav-7be166e51966e893cb6e0bd84549e985.sample"
+
+[deps]
+
+source_file="res://Audio/Jingle_Achievement_01.wav"
+source_md5="7740f4359c53e7415adae7d44307feb0"
+
+dest_files=[ "res://.import/Jingle_Achievement_01.wav-7be166e51966e893cb6e0bd84549e985.sample" ]
+dest_md5="ed8a134e81d7381cc99448bc7b22cc87"
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

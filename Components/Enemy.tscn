@@ -138,13 +138,15 @@ autostart = true
 
 [node name="Sfx" type="Node2D" parent="." index="6"]
 
-[node name="Throw" type="AudioStreamPlayer" parent="Sfx" index="0"]
+[node name="Throw" type="AudioStreamPlayer2D" parent="Sfx" index="0"]
 
 stream = ExtResource( 5 )
-volume_db = 0.0
+volume_db = 10.0
 autoplay = false
-mix_target = 0
+max_distance = 2000.0
+attenuation = 1.0
 bus = "Master"
+area_mask = 1
 
 [connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]
 

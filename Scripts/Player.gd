@@ -13,7 +13,6 @@ onready var shurikens_node = get_node("/root/Game/Shurikens")
 
 var Shuriken = preload("res://Components/Shuriken.tscn")
 
-
 var exploding = false
 var shurikens = []
 var record = []
@@ -30,6 +29,9 @@ var motion = Vector2(0,0)
 var cooldown = 0
 var start_time = 0
 var dead_hits = 3
+	
+func pick_coin():
+	game.coin_picked()
 	
 func imitate(record_data):
 	record = record_data
@@ -198,6 +200,9 @@ func recorded_player_process(delta):
 	
 		
 func _physics_process(delta):
+	if game.paused:
+		return
+		
 	motion.y += GRAVITY * delta
 	
 	if !alive:

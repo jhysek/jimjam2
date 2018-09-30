@@ -231,6 +231,7 @@ _sections_unfolded = [ "custom_colors", "custom_fonts", "custom_styles" ]
 
 [node name="Light2D" type="Light2D" parent="." index="3"]
 
+visible = false
 position = Vector2( 560, 270 )
 enabled = true
 editor_only = false
